@@ -23,6 +23,9 @@ angular
     .when('/about',{
         templateUrl: 'views/about.html'
     })
+    .when('/bootstrap',{
+        templateUrl: 'modules/bootstrapInfo.html'
+    })
     .otherwise({
         templateUrl: '404.html'
         //redirectTo: '/'
