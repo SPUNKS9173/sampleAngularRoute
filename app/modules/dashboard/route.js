@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name test1App
+ * @name testApp
  * @description
- * # test1App
+ * # testApp
  *
  * Main module of the application.
  */
 angular
-  .module('test1App').config(function($routeProvider){
+  .module('testApp').config(function($routeProvider){
     $routeProvider
     .when('/',{
         redirectTo: '/dashboard'

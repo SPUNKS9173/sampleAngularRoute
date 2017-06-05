@@ -1,0 +1,13 @@
+<div class="jumbotron">
+    <h3> This the list of student of Section 8 :</h3>
+    <table id='studentTable'>
+        <th>NAME  </th>
+        <th>MARKS  </th>
+        <th>SECTION  </th>
+        <span ng-repeat="student in sectionCtrl.studentList">
+            <tr>{{student.name}}  </tr>
+            <tr>{{student.marks}}  </tr>
+            <tr>{{student.section}}  </tr>
+        </span> 
+    </table>
+</div>
